@@ -1,0 +1,20 @@
+<template>
+    <lightning-card>
+        <lightning-input
+            id="parentesis"
+            type="parentesis"
+            label="parentesis"
+            value={floors}
+            onchange={handleChange}>
+        </lightning-input>
+        <lightning-button
+            label="Reset"
+            onclick={reset}>
+        </lightning-button>
+        <lightning-button
+            label="Calculate"
+            onclick={calculate}>
+    </lightning-button>
+    <p id="demo"></p>
+    </lightning-card>
+  </template>
